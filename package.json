@@ -1,0 +1,26 @@
+{
+  "name": "login-example",
+  "version": "1.0.0",
+  "description": "Hapi login example",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heron2014/login-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heron2014/login-example/issues"
+  },
+  "homepage": "https://github.com/heron2014/login-example#readme",
+  "dependencies": {
+    "env2": "^2.0.8",
+    "hapi": "^13.4.0",
+    "hoek": "^4.0.0",
+    "inert": "^4.0.0"
+  }
+}
