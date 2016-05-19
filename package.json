@@ -19,8 +19,13 @@
   "homepage": "https://github.com/heron2014/login-example#readme",
   "dependencies": {
     "env2": "^2.0.8",
+    "handlebars": "^4.0.5",
     "hapi": "^13.4.0",
+    "hapi-register": "^1.1.0",
     "hoek": "^4.0.0",
-    "inert": "^4.0.0"
+    "inert": "^4.0.0",
+    "joi": "^8.1.0",
+    "validator": "^5.2.0",
+    "vision": "^4.1.0"
   }
 }
