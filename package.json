@@ -18,13 +18,17 @@
   },
   "homepage": "https://github.com/heron2014/login-example#readme",
   "dependencies": {
+    "bcrypt": "^0.8.6",
     "env2": "^2.0.8",
     "handlebars": "^4.0.5",
     "hapi": "^13.4.0",
+    "hapi-auth-jwt2": "^6.0.0",
+    "hapi-login": "^1.2.0",
     "hapi-register": "^1.1.0",
     "hoek": "^4.0.0",
     "inert": "^4.0.0",
     "joi": "^8.1.0",
+    "redis-connection": "^4.0.3",
     "validator": "^5.2.0",
     "vision": "^4.1.0"
   }

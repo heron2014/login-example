@@ -1,7 +1,10 @@
 <p>Don't have an account? Sign up! or <a href="/login">Login</a></p>
 
+{{title}}
+{{error.message}}
 <form class="" action="/register" method="POST">
   <input type="email" name="email" value="" placeholder="Email">
+  <input type="text" name="name" value="{{values.name}}" placeholder="Name">
   <input type="password" name="password" value="" placeholder="Password">
   <input type="submit" value="Login">
 </form>
