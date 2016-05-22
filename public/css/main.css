@@ -1,0 +1,7 @@
+body {
+  background-color: grey;
+}
+
+.input-error {
+  color: red;
+}

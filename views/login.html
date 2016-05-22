@@ -1,6 +1,8 @@
 <form class="" action="/login" method="POST">
-  <input type="email" name="email" value="" placeholder="Email">
+  <input type="email" name="email" value="{{values.email}}" placeholder="Email">
+  <p class='input-error'>{{error.email.message}}</p>
   <input type="text" name="name" value="" placeholder="NAme">
   <input type="password" name="password" value="" placeholder="Password">
+  <p class='input-error'>{{error.password.message}}</p>
   <input type="submit" value="Login">
 </form>
